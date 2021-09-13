@@ -14,7 +14,7 @@
 
 import unittest
 
-import mock
+from unittest import mock
 from proto.datetime_helpers import DatetimeWithNanoseconds
 from google.protobuf import timestamp_pb2
 

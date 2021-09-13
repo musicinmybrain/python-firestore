@@ -15,7 +15,7 @@
 
 import unittest
 
-import mock
+from unittest import mock
 
 
 class Test__tokenize_field_path(unittest.TestCase):

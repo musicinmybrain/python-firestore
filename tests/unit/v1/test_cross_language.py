@@ -17,7 +17,7 @@ import glob
 import json
 import os
 
-import mock
+from unittest import mock
 import pytest
 
 from google.cloud.firestore_v1.types import document

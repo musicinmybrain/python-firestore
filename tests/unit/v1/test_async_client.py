@@ -17,7 +17,7 @@ import datetime
 import types
 import aiounittest
 
-import mock
+from unittest import mock
 from google.cloud.firestore_v1.types.document import Document
 from google.cloud.firestore_v1.types.firestore import RunQueryResponse
 from tests.unit.v1.test__helpers import AsyncIter, AsyncMock

@@ -18,7 +18,7 @@ import sys
 import typing
 import unittest
 
-import mock
+from unittest import mock
 from google.cloud.firestore_bundle import BundleElement, FirestoreBundle
 from google.cloud.firestore_v1 import _helpers
 from google.cloud.firestore_v1.async_collection import AsyncCollectionReference

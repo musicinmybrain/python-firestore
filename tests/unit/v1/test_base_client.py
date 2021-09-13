@@ -16,7 +16,7 @@ import datetime
 import unittest
 import grpc
 
-import mock
+from unittest import mock
 
 
 class TestBaseClient(unittest.TestCase):

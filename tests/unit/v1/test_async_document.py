@@ -16,7 +16,7 @@ import pytest
 import collections
 import aiounittest
 
-import mock
+from unittest import mock
 from tests.unit.v1.test__helpers import AsyncIter, AsyncMock
 
 

@@ -14,7 +14,7 @@
 
 import unittest
 
-import mock
+from unittest import mock
 
 
 class TestCollectionReference(unittest.TestCase):

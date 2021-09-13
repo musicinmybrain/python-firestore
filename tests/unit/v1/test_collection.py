@@ -17,7 +17,7 @@ from google.cloud.firestore_v1.types.firestore import RunQueryResponse
 import types
 import unittest
 
-import mock
+from unittest import mock
 
 from tests.unit.v1 import _test_helpers
 

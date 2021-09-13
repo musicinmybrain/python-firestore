@@ -94,7 +94,6 @@ def default(session):
         CURRENT_DIRECTORY / "testing" / f"constraints-{session.python}.txt"
     )
     session.install(
-        "mock",
         "asyncmock",
         "pytest",
         "pytest-cov",
@@ -156,7 +155,6 @@ def system(session):
     # Install all test dependencies, then install this package into the
     # virtualenv's dist-packages.
     session.install(
-        "mock",
         "pytest",
         "google-cloud-testutils",
         "pytest-asyncio",

@@ -15,7 +15,7 @@
 import unittest
 from google.cloud.firestore_v1.base_batch import BaseWriteBatch
 
-import mock
+from unittest import mock
 
 
 class TestableBaseWriteBatch(BaseWriteBatch):

@@ -14,7 +14,7 @@
 
 import datetime
 import unittest
-import mock
+from unittest import mock
 from google.cloud.firestore_v1.types import firestore
 
 

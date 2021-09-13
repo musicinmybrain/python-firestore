@@ -15,7 +15,7 @@
 import datetime
 import unittest
 
-import mock
+from unittest import mock
 
 
 class TestBaseQuery(unittest.TestCase):

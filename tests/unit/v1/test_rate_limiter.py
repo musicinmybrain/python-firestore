@@ -16,7 +16,7 @@ import datetime
 import unittest
 from typing import Optional
 
-import mock
+from unittest import mock
 import google
 from google.cloud.firestore_v1 import rate_limiter
 
